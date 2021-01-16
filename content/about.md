@@ -6,7 +6,7 @@ draft: true
 
 ---
 
-* Email: [foo@xyz.com](mailto:foo@xyz.com)
+* Email: [ghenry AT ghenry dot co dot uk](mailto:foo@xyz.com)
 * Phone: [+91-123123](tel:+91-123123)
 
 ---
