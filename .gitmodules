@@ -1,0 +1,7 @@
+[submodule "themes/researcher"]
+	path = themes/researcher
+	url = https://github.com/ojroques/hugo-researcher.git
+[submodule "public"]
+	path = public
+	url = https://github.com/ghenry/ghenry.github.io.git
+	branch = main
