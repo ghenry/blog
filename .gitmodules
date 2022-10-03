@@ -1,4 +1,0 @@
-[submodule "public"]
-	path = public
-	url = git@github.com:ghenry/ghenry.github.io.git
-	branch = main
