@@ -66,9 +66,9 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
+    enabled: true # needs to be explicitly set
     title: "Gavin Henry's Blog"
-    subtitle: "All things tech"
+    subtitle: "Software Engineering and Tech"
     imageUrl: "https://pbs.twimg.com/profile_images/1566092118086516736/CAbU48Qt_400x400.jpg"
     imageWidth: 120
     imageHeight: 120
