@@ -1,6 +1,7 @@
 ---
 title: "About"
 url: "/about/"
+date: 2022-10-03T20:15:03+00:00
 summary: about
 showToc: false
 comments: false

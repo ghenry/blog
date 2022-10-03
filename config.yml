@@ -39,6 +39,7 @@ params:
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   ShowWordCount: true
+  ShowFullTextinRSS: true # Supports to show your whole contents in RSS, not just summary
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
   disableSpecial1stPost: false
@@ -90,6 +91,8 @@ params:
       url: "https://stackoverflow.com/users/1072411/gavin-henry"
     - name: github
       url: "https://github.com/ghenry"
+    - name: rss # Shows an RSS feed icon on your site`
+      url: "index.xml" # Your RSS feed url path
 
   analytics:
     google:
@@ -122,23 +125,23 @@ params:
 menu:
   main:
     - identifier: archive
-      name: archive
+      name: Archive
       url: /archives/
       weight: 10
     - identifier: search
-      name: search
+      name: Search
       url: /search/
       weight: 20
     - identifier: categories
-      name: categories
+      name: Categories
       url: /categories/
       weight: 30
     - identifier: tags
-      name: tags
+      name: Tags
       url: /tags/
       weight: 40
     - identifier: about
-      name: about
+      name: About
       url: /about/
       weight: 50
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
