@@ -137,9 +137,9 @@ menu:
       name: tags
       url: /tags/
       weight: 40
-    - identifier: se-radio
-      name: se-radio.net/ghenry
-      url: https://www.se-radio.net/team/gavin-henry/
+    - identifier: about
+      name: about
+      url: /about/
       weight: 50
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
