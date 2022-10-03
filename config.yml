@@ -52,11 +52,11 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    favicon: "https://pbs.twimg.com/profile_images/1566092118086516736/CAbU48Qt_400x400.jpg"
+    favicon16x16: "https://pbs.twimg.com/profile_images/1566092118086516736/CAbU48Qt_400x400.jpg"
+    favicon32x32: "https://pbs.twimg.com/profile_images/1566092118086516736/CAbU48Qt_400x400.jpg"
+    apple_touch_icon: "https://pbs.twimg.com/profile_images/1566092118086516736/CAbU48Qt_400x400.jpg"
+    safari_pinned_tab: "https://pbs.twimg.com/profile_images/1566092118086516736/CAbU48Qt_400x400.jpg"
 
   label:
     text: "Home"
@@ -105,7 +105,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/ghenry/blog/blob/master/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
