@@ -1,6 +1,6 @@
 ---
 title: "Protect your SIP Servers from bad actors"
-date: 2022-10-03T20:10:03+00:00
+date: 2022-10-03T21:10:03+00:00
 weight: 1
 # aliases: ["/first"]
 tags: ["firstpost", "sentrypeer", "sip", "security", "sipsecurity", "sipservers", "fraud", "fraudprotection", "fraudprotection", "voip"]
