@@ -3,9 +3,9 @@ title: "Protect your SIP Servers from bad actors"
 date: 2022-10-03T15:01:03+00:00
 weight: 1
 # aliases: ["/first"]
-tags: ["first"]
-categories: ["first"]
-author: "Gavin"
+tags: ["firstpost" "sentrypeer" "sip" "security" "sipsecurity" "sipservers" "fraud" "fraudprotection" "fraudprotection" "voip"]
+categories: ["firstpost" "sentrypeer" "sip" "security" "sipsecurity" "sipservers" "fraud" "fraudprotection" "fraudprotection" "voip"]]
+author: "Gavin Henry"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false

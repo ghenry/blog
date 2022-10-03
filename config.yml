@@ -26,7 +26,7 @@ params:
   title: "Gavin Henry's Blog"
   description: "Gavin Henry's Blog about all things tech"
   keywords: [Blog, Portfolio, PaperMod]
-  author: Me
+  author: Gavin Henry
   # author: ["Me", "You"] # multiple authors
   images: ["https://pbs.twimg.com/profile_images/1566092118086516736/CAbU48Qt_400x400.jpg"]
   DateFormat: "January 2, 2006"
