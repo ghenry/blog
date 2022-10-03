@@ -67,22 +67,24 @@ params:
   # profile-mode
   profileMode:
     enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
+    title: "Gavin Henry's Blog"
+    subtitle: "All things tech"
+    imageUrl: "https://pbs.twimg.com/profile_images/1566092118086516736/CAbU48Qt_400x400.jpg"
     imageWidth: 120
     imageHeight: 120
-    imageTitle: my image
+    imageTitle: "Gavin Henry"
     buttons:
       - name: Posts
         url: posts
       - name: Tags
         url: tags
+      - name: Categories
+        url: categories
 
   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog!
+    Content: I'm Gavin Henry and welcome to my blog.
 
   socialIcons:
     - name: twitter
@@ -91,16 +93,10 @@ params:
       url: "https://stackoverflow.com/users/1072411/gavin-henry"
     - name: github
       url: "https://github.com/ghenry"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/surevoip/"
     - name: rss # Shows an RSS feed icon on your site`
       url: "index.xml" # Your RSS feed url path
-
-  analytics:
-    google:
-      SiteVerificationTag: "XYZabc"
-    bing:
-      SiteVerificationTag: "XYZabc"
-    yandex:
-      SiteVerificationTag: "XYZabc"
 
   cover:
     hidden: true # hide everywhere but not in structured data
