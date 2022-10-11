@@ -84,7 +84,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: I'm Gavin Henry and welcome to my blog.
+    Content: I'm Gavin Henry and welcome to my blog. I like to blog about Software Engineering, tech and anything that interests me.
 
   socialIcons:
     - name: twitter
