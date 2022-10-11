@@ -1,7 +1,7 @@
 ---
 title: "Rate That Crypto Game"
 date: 2022-10-11T19:00:03+00:00
-tags: ["crypto", "cryptocurrency", "game", "games", "gaming", "rating", "bitcoin", "etherium", "monero", "xmr", "btc", "eth"]
+tags: ["ratethatcrypto", "crypto", "cryptocurrency", "game", "games", "gaming", "rating", "bitcoin", "etherium", "monero", "xmr", "btc", "eth"]
 categories: ["cryptocurrency", "games"]
 author: "Gavin Henry"
 showToc: true
