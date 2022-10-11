@@ -9,6 +9,8 @@ ShowReadingTime: false
 ShowWordCount: false
 ---
 
+![Gavin Henry Bio Pic](https://pbs.twimg.com/profile_images/1566092118086516736/CAbU48Qt_400x400.jpg "Gavin Henry Bio Pic")
+
 - 💼 I'm the CIO of [TelcoSwitch](https://telcoswitch.com/) and founder of the recently acquired [SureVoIP](https://www.surevoip.co.uk/) (July 2021), an Internet Telephony Service Provider for which I wrote most of the software that sticks it all together
 - 🎙️  I'm a podcast host for [Software Engineering Radio](https://www.se-radio.net/team/gavin-henry/)
 - 🔭 I’m currently working on [SentryPeer®](https://github.com/SentryPeer/SentryPeer)

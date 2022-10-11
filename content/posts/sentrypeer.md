@@ -1,7 +1,7 @@
 ---
 title: "Protect your SIP Servers from bad actors"
 date: 2022-10-03T21:10:03+00:00
-weight: 1
+# weight: 1
 # aliases: ["/first"]
 tags: ["firstpost", "sentrypeer", "sip", "security", "sipsecurity", "sipservers", "fraud", "fraudprotection", "fraudprotection", "voip"]
 categories: ["firstpost", "sentrypeer", "sip", "security", "sipsecurity", "sipservers", "fraud", "fraudprotection", "fraudprotection", "voip"]
@@ -13,7 +13,7 @@ draft: false
 hidemeta: false
 comments: true
 description: "Learn about SentryPeer"
-canonicalURL: "https://canonical.url/to/page"
+canonicalURL: "https://ghenry.co.uk/posts/sentrypeer/"
 disableHLJS: true # to disable highlightjs
 disableShare: false
 hideSummary: false
@@ -36,9 +36,7 @@ editPost:
     appendFilePath: true # to append file path to Edit link
 ---
 
-## Protect your SIP Servers from bad actors
-
-### Introduction
+## Introduction
 
 SentryPeer<sup>&reg;</sup> is a fraud detection tool. It lets bad actors try to make phone calls and saves the IP address they came from and
 number they tried to call. Those details can then be used to raise notifications at the service providers network and the next
@@ -73,7 +71,7 @@ What would lead to this scenario?
 
 Traditionally this data is shipped to a central place, so you don't own the data you've collected. This project is all about Peer to Peer sharing of that data. The user owning the data and various Service Provider / Network Provider related feeds of the data is the key bit for me. I'm sick of all the services out there that keep it and sell it. If you've collected it, you should have the choice to keep it and/or opt in to share it with other SentryPeer community members via p2p methods.
 
-### Features
+## Features
 
 - [x] All code [Free/Libre and Open Source Software](https://www.gnu.org/philosophy/floss-and-foss.en.html)
 - [x] FAST
@@ -111,14 +109,14 @@ Traditionally this data is shipped to a central place, so you don't own the data
 - [ ] BGP agent to peer with for blackholing collected IP addresses (similar to [Team Cymru Bogon Router Server Project](https://team-cymru.com/community-services/bogon-reference/bogon-reference-bgp/))
 - [ ] SIP agent to return 404 or default destination for SIP redirects
 
-### Talks
+## Talks
 
 - TADSummit 2021 - https://blog.tadsummit.com/2021/11/17/sentrypeer/
 - CommCon 2021 - https://2021.commcon.xyz/talks/sentrypeer-a-distributed-peer-to-peer-list-of-bad-ip-addresses-and-phone-numbers-collected-via-a-sip-honeypot
 - ClueCon Weekly 2022 - https://youtu.be/DFxGHJI_0Wg
 - UKNOF49 2022 ([presentation slides](https://indico.uknof.org.uk/event/59/contributions/801/attachments/1033/1520/UKNOF-49-2022-SentryPeer.pdf)) - https://indico.uknof.org.uk/event/59/contributions/801/
 
-### Adoption
+## Adoption
 
 * [Kali Linux](https://pkg.kali.org/pkg/sentrypeer)
 * Deutsche Telekom [T-Pot - The All In One Honeypot Platform](https://github.com/telekom-security/tpotce) [v22](https://github.com/telekom-security/tpotce/releases/tag/22.04.0) onwards
@@ -127,13 +125,13 @@ Traditionally this data is shipped to a central place, so you don't own the data
 [![slack](https://img.shields.io/badge/join-us%20on%20slack-gray.svg?longCache=true&logo=slack&colorB=brightgreen)](https://join.slack.com/t/sentrypeer/shared_invite/zt-zxsmfdo7-iE0odNT2XyKLP9pt0lgbcw)
 [![SentryPeer on Twitter](https://img.shields.io/badge/follow-twitter-blue)](https://twitter.com/SentryPeer)
 
-### Design
+## Design
 
 I started this because I wanted to do [C network programming](https://github.com/codeplea/Hands-On-Network-Programming-with-C) as all the projects I use daily are in C like [PostgreSQL](https://www.postgresql.org/), [OpenLDAP](https://www.openldap.org/), [FreeSWITCH](https://freeswitch.com/), [OpenSIPS](https://opensips.org/),
 [Asterisk](https://www.asterisk.org/) etc. See
 [Episode 414: Jens Gustedt on Modern C](https://www.se-radio.net/2020/06/episode-414-jens-gustedt-on-modern-c/) for why [C](https://en.wikipedia.org/wiki/C_(programming_language)) is a good choice.  For those interested, see my full podcast show list (https://www.se-radio.net/team/gavin-henry/) for [Software Engineering Radio](https://www.se-radio.net/)
 
-### Docker
+## Docker
 
 You can run the latest version of SentryPeer with [Docker](https://www.docker.com/). The latest version is available from [Docker Hub](https://hub.docker.com/r/sentrypeer/sentrypeer/).
 Or build yourself:
@@ -143,7 +141,7 @@ Or build yourself:
 
 Then you can check at `http://localhost:8082/ip-addresses` and `http://localhost:8082/health-check` to see if it's running.
 
-#### Environment Variables
+### Environment Variables
 
     ENV SENTRYPEER_DB_FILE=/my/location/sentrypeer.db
     ENV SENTRYPEER_API=1
@@ -160,26 +158,26 @@ Then you can check at `http://localhost:8082/ip-addresses` and `http://localhost
 
 Either set these in the Dockerfile or in your `Dockerfile.env` file or docker run command.
 
-### Installation
+## Installation
 
 Debian or Fedora packages are always available from the release page for the current version of SentryPeer:
 
 https://github.com/SentryPeer/SentryPeer/releases
 
-#### Homebrew (macOS or Linux):
+### Homebrew (macOS or Linux):
 
 We have a [Homebrew Tap for this project](https://github.com/SentryPeer/homebrew-sentrypeer) (until we get more popular):
 
     brew tap sentrypeer/sentrypeer
     brew install sentrypeer
 
-#### Alpine Linux:
+### Alpine Linux:
 
 SentryPeer is in [testing on Alpine Linux](https://gitlab.alpinelinux.org/alpine/aports/-/tree/master/testing/sentrypeer), so you can install it with the following command:
 
     apk -U add --no-cache -X https://dl-cdn.alpinelinux.org/alpine/edge/testing sentrypeer
 
-#### Ubuntu Package
+### Ubuntu Package
 
 You can install SentryPeer from [our Ubuntu PPD](https://launchpad.net/~gavinhenry/+archive/ubuntu/sentrypeer) which
 is currently for Ubuntu 20 LTS (Focal Fossa):
@@ -198,7 +196,7 @@ Then you can install SentryPeer:
 
     sudo apt-get install sentrypeer
 
-#### Building from source
+### Building from source
 
 You have two options for installation from source. CMake or autotools. Autotools is recommended at the moment. A release is an autotools build.
 
@@ -240,7 +238,7 @@ then (make check is highly recommended):
     make check
     make install
 
-### Running SentryPeer
+## Running SentryPeer
 
 Once built, you can run like so to start in **debug mode**, **respond** to SIP probes, enable the **RESTful API**,
 enable WebHooks and enable syslog logging ([use a package](https://github.com/SentryPeer/SentryPeer/releases) if you want [systemd](https://www.freedesktop.org/wiki/Software/systemd/)):
@@ -318,17 +316,17 @@ Here's a screenshot of the database opened using [sqlitebrowser](https://sqliteb
 
 [sqlitebrowser exploring the sentrypeer.db](./screenshots/SentryPeer-sqlitebrowser.png)
 
-### WebHook
+## WebHook
 
 There is a WebHook to POST a [JSON Log Format](#json-log-format) payload to [SentryPeerHQ](https://github.com/SentryPeer/SentryPeer_HQ) or
 your own WebHook endpoint.  The WebHook is **not** enabled by default. You can configure the WebHook URL via `-w` or set
 the `SENTRYPEER_WEBHOOK_URL` env variable.
 
-### RESTful API
+## RESTful API
 
 The RESTful API is complete for the current use cases. Please click the Watch button to be notified when more things come out :-)
 
-#### Endpoint /health-check
+### Endpoint /health-check
 
 Query the API to see if it's alive:
 
@@ -358,7 +356,7 @@ curl -v -H "Content-Type: application/json" http://localhost:8082/health-check
 }
 ```
 
-#### Endpoint /ip-addresses
+### Endpoint /ip-addresses
 
 List all the IP addresses that have been seen by SentryPeer:
 
@@ -399,7 +397,7 @@ curl -v -H "Content-Type: application/json" http://localhost:8082/ip-addresses
 }
 ```
 
-#### Endpoint /ip-address/{ip-address}
+### Endpoint /ip-address/{ip-address}
 
 Query a single IP address:
 
@@ -428,7 +426,7 @@ curl -v -H "Content-Type: application/json" http://localhost:8082/ip-address/8.8
 }
 ```
 
-#### Endpoint /numbers/{phone-number}
+### Endpoint /numbers/{phone-number}
 
 Query a phone number a bad actor tried to call with optional `+` prefix:
 
@@ -456,7 +454,7 @@ curl -v -H "Content-Type: application/json" http://localhost:8082/numbers/878494
 }
 ```
 
-### Syslog and Fail2ban
+## Syslog and Fail2ban
 
 With `sentrypeer -s`, you parse syslog and use Fail2Ban to block the IP address of the bad actor:
 
@@ -464,7 +462,7 @@ With `sentrypeer -s`, you parse syslog and use Fail2Ban to block the IP address 
 Nov 30 21:32:16 localhost.localdomain sentrypeer[303741]: Source IP: 144.21.55.36, Method: OPTIONS, Agent: sipsak 0.9.7
 ```
 
-### JSON Log Format
+## JSON Log Format
 
 With `sentrypeer -j`, you can produce a JSON log file of the bad actor's IP address and the phone number they tried to call
 plus other metadata (set a custom log file location with `-l`):
@@ -487,7 +485,7 @@ plus other metadata (set a custom log file location with `-l`):
 }
 ```
 
-### Command Line Options
+## Command Line Options
 
 ```bash
 ./sentrypeer -h
@@ -514,7 +512,7 @@ Report bugs to https://github.com/SentryPeer/SentryPeer/issues
 See https://sentrypeer.org for more information.
 ```
 
-### IPv6 Multicast Address
+## IPv6 Multicast Address
 
 The project has an IANA IPv6 multicast address for the purpose of sending messages between SentryPeer peers.
 
@@ -527,7 +525,7 @@ Please see http://www.iana.org/assignments/ipv6-multicast-addresses
 
 The assigned variable-scope address -- which can also be listed as "FF0X::172" for short -- the "X" denotes any possible scope.
 
-### License
+## License
 
 Great reading - [How to choose a license for your own work](https://www.gnu.org/licenses/license-recommendations.en.html)
 
@@ -535,19 +533,19 @@ This work is dual-licensed under GPL 2.0 and GPL 3.0.
 
 `SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only`
 
-### Contributing
+## Contributing
 
 See [CONTRIBUTING](./CONTRIBUTING.md)
 
-### Project Website
+## Project Website
 
 https://sentrypeer.org
 
-### Trademark
+## Trademark
 
 [**SENTRYPEER** is a registered trademark](https://trademarks.ipo.gov.uk/ipo-tmcase/page/Results/1/UK00003700947) of Gavin Henry
 
-### Questions, Bug reports, Feature Requests
+## Questions, Bug reports, Feature Requests
 
 New issues can be raised at:
 
@@ -555,7 +553,7 @@ https://github.com/SentryPeer/SentryPeer/issues
 
 It's okay to raise an issue to ask a question.
 
-### Special Thanks
+## Special Thanks
 
 Special thanks to:
 - [psanders](https://github.com/psanders) from the [Routr](https://github.com/fonoster/routr) project for [tips on re-working this README.md](https://mobile.twitter.com/pedrosanders_/status/1554572884714070019) file.
