@@ -23,7 +23,7 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
-    image: "https://ghenry.co.uk/static/Rate-That-Crypto-logo.png" # image path/url
+    image: "https://ghenry.co.uk/rate-that-crypto-logo.png" # image path/url
     alt: "Rate That Crypto Game Logo" # alt text
     caption: "Rate That Crypto Game" # display caption under cover
     relative: false # when using page bundles set this to true
