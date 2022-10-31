@@ -18,6 +18,7 @@ ShowWordCount: false
 - 🤔 I’m looking for help with [Terraform](https://www.terraform.io/) - https://github.com/SentryPeer/SentryPeer/issues/12
 - 💬 Ask me about whatever you like
 - 🧑‍💻 I'm a [Software Heritage Ambassador](https://www.softwareheritage.org/ambassadors/)
+- 💲 Ideas are easy. Experience is hard to find. Why not hire me for your next project? I provide consultancy via my company called [Ant Networks](https://antnetworks.com)
 - 📫 How to reach me: Twitter: [@ghenry](https://twitter.com/ghenry) or GitHub: [@ghenry](https://github.com/ghenry)
 
 My interests include all aspects of software engineering, identity management (especially around OpenLDAP), 
